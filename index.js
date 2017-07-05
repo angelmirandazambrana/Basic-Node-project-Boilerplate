@@ -1,9 +1,11 @@
-var app = require('express')()
-var server = require('http').Server(app)
-var path = require('path')
+var express = require('express');
+var app = express();
 
-server.listen(4000)
-
+app.use(express.static('public'));
 app.get('/', function (req, res) {
-  res.sendFile(path.join(__dirname, '/index.html'))
-})
+  res.send('Hello World!');
+});
+
+app.listen(4000, function () {
+  console.log('Server in port 4000');
+});
