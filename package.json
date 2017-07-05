@@ -1,0 +1,31 @@
+{
+  "name": "interactive",
+  "version": "1.0.0",
+  "description": "none",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/angelmirandazambrana/interactive-dynamic-javascript-for-beginners-DOM.git"
+  },
+  "author": "AMZ",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/angelmirandazambrana/interactive-dynamic-javascript-for-beginners-DOM/issues"
+  },
+  "homepage": "https://github.com/angelmirandazambrana/interactive-dynamic-javascript-for-beginners-DOM#readme",
+  "dependencies": {
+    "eslint": "^4.1.1",
+    "express": "^4.15.3"
+  },
+  "devDependencies": {
+    "eslint": "^4.1.1",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-import": "^2.6.1",
+    "eslint-plugin-node": "^5.1.0",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^3.0.1"
+  }
+}
